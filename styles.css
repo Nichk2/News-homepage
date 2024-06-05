@@ -192,11 +192,13 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin-left: 2rem;
+    flex-wrap: wrap;
 }
 
 .blocks {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .img-block {
@@ -369,6 +371,7 @@ hr {
         display: flex;
         flex-wrap: wrap;
         margin: 0;
+        flex-direction: column;
     }
 
     .menu {
