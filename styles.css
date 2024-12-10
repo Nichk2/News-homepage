@@ -144,7 +144,7 @@ button:hover {
 .main-content2 {
     background-color: var(--VeryDarkBlue);
     width: 400px;
-    height: 520px;
+    height: auto;
     margin-top: 1.2rem;
     margin-right: 3.5rem;
 }
@@ -245,35 +245,6 @@ hr {
 }
 
 
-
-@media (max-width: 1300px) {
-    .main-content2 {
-        width: 400px;
-        height: 600px;
-    }
-}
-
-@media (max-width: 1248px) {
-    .main-content2 {
-        width: 400px;
-        height: 640px;
-    }
-}
-
-@media (max-width: 1220px) {
-    .main-content2 {
-        width: 400px;
-        height: 740px;
-    }
-}
-
-@media (max-width: 1180px) {
-    .main-content2 {
-        width: 400px;
-        height: 940px;
-    }
-}
-
 @media (max-width: 1100px) {
 
     .hero {
@@ -282,8 +253,6 @@ hr {
 
     .main-content2 {
         margin-left: 11rem;
-        width: 720px;
-        height: 420px;
     }
 
     .all-blocks {
@@ -317,12 +286,6 @@ hr {
     .main-content h1 {
         width: 350px;
     }   
-
-    .main-content2 {
-        margin-left: 11rem;
-        width: 710px;
-        height: 460px;
-    }
 
     .all-blocks {
         display: flex;
@@ -361,17 +324,12 @@ hr {
         width: 350px;
     }   
 
-    .main-content2 {
-        margin-left: 11rem;
-        width: 400px;
-        height: 460px;
-    }
 
     .all-blocks {
         display: flex;
         flex-wrap: wrap;
-        margin: 0;
         flex-direction: column;
+        margin: 0;
     }
 
     .menu {
@@ -397,6 +355,12 @@ hr {
         margin-left: 230px;
         cursor: pointer;
     }
+/* 
+    .overlay {
+        display: block;
+        position: fixed;
+        
+    } */
     
     .menu {
         margin: -40px;
